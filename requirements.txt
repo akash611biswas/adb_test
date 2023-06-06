@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+pip
+pyodbc
+Jinja2
+blinker
