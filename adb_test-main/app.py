@@ -46,6 +46,7 @@ def full_list():
     connection.close()
     return render_template("list.html",rows = rows)
 
+
 @app.route('/update_sal',methods=['POST','GET'])
 def update_sal():
     if (request.method=='POST'):
